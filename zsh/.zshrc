@@ -1,17 +1,17 @@
 # fnm
-FNM_PATH="/home/pablo/.local/share/fnm"
+FNM_PATH="$HOME/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
   export PATH="$FNM_PATH:$PATH"
   eval "`fnm env`"
 fi
 
 # Aliases
-alias emscript_enable="source /home/pablo/SDKs/emsdk/emsdk_env.sh"
+alias emscript_enable="source $HOME/SDKs/emsdk/emsdk_env.sh"
 
 # import fzf keybindings
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
-PATH=/home/pablo/.local/bin:$PATH
+PATH=$HOME/.local/bin:$PATH
 function _update_ps1() {
      PS1="$(powerline-shell --shell bash $?)"
  }
