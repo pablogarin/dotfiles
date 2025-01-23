@@ -5,10 +5,14 @@ Restore configs by using `stow`.
 ## Install stow
 
 ### Debian
-`sudo apt install stow`
+```sh
+sudo apt install stow
+```
 
 ### MACOS
-`brew install stow`
+```sh
+brew install stow
+```
 
 NOTE: Dunst, Polybar, Picom, Rofi and i3 will never work on MACOS. This is mainly for Wezterm, starship, tmux, vim and ZSH.
 
