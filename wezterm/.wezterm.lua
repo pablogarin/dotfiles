@@ -15,5 +15,7 @@ config.tab_bar_at_bottom = true
 
 -- Window opacity
 config.window_background_opacity = 0.6
+config.term = "wezterm"
+config.underline_thickness = "2px"
 
 return config
