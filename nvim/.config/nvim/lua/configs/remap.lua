@@ -26,3 +26,6 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "<leader>d", "\"_d")
 vim.keymap.set("v", "<leader>d", "\"_d")
 
+-- Sessions
+vim.keymap.set({"n","i"}, "<C-s>", "<cmd>mksession! session.vim<cr>")
+vim.keymap.set({"n","i"}, "<C-l>", "<cmd>source session.vim<cr>")
